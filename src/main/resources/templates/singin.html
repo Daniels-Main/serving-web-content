@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Sing In</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form action="/profile" method="post">
+    <ul>
+        <li>
+            <label for="name">Username:</label>
+            <input type="text" id="name" name="user_name">
+        </li>
+        <br/>
+        <li>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="user_pass">
+        </li>
+        <br/>
+        <li class="button">
+            <button type="submit">SING IN</button>
+        </li>
+    </ul>
+</form>
+
+</body>
+</html>
